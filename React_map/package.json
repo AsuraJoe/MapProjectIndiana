@@ -1,0 +1,14 @@
+{
+  "name": "react_map",
+  "version": "1.0.0",
+  "description": "economy data map for Vietnam",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "author": "TN",
+  "license": "ISC",
+  "dependencies": {
+    "create-react-app": "^3.4.1"
+  }
+}
