@@ -1,11 +1,11 @@
-DROP TABLE IF EXISTS provinces;
+DROP TABLE IF EXISTS provinces CASCADE;
 CREATE TABLE provinces(
     provinceID INT NOT NULL,
-    ProvinceName VARCHAR(50),
+    province_name VARCHAR(50),
     PRIMARY KEY(provinceID)
 );
 
-DROP TABLE IF EXISTS pci_data;
+DROP TABLE IF EXISTS pci_data CASCADE;
 CREATE TABLE pci_data(
     data_year INT NOT NULL,
     province INT NOT NULL REFERENCES provinces(provinceID) ,
