@@ -8,8 +8,10 @@ CREATE TABLE provinces(
 DROP TABLE IF EXISTS pci_data CASCADE;
 CREATE TABLE pci_data(
     data_year INT NOT NULL,
-    province INT NOT NULL REFERENCES provinces(provinceID) ,
-    transperency FLOAT(5),
+    province INT NOT NULL REFERENCES provinces(provinceID),
+    ranking INT,
+    pci FLOAT(5),
+    transparency FLOAT(5),
     time_costs FLOAT(5),
     informal_charges FLOAT(5),
     bias FLOAT(5),
