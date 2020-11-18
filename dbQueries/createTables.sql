@@ -11,6 +11,8 @@ CREATE TABLE pci_data(
     province INT NOT NULL REFERENCES provinces(provinceID),
     ranking INT,
     pci FLOAT(5),
+    entry_costs FLOAT(5),
+    Land_Access FLOAT(5),
     transparency FLOAT(5),
     time_costs FLOAT(5),
     informal_charges FLOAT(5),
