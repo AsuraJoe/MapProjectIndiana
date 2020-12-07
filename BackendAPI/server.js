@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 //api routes
-
+app.use('/pci', require('./pci/pci.controller'));
 //global error handler
 app.use(errorHandler)
 
