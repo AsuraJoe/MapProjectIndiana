@@ -77,3 +77,7 @@ Values(2019,19,23,65.82,7.13,6.06,6.60,8.02,5.57,6.04,5.92,6.88,6.75,6.40);
 insert into pci_data (data_year, province, ranking, pci, entry_costs, land_access, transparency, time_costs, 
 informal_charges, bias, proactivity, bss, labor_training, law_order) 
 Values(2019,20,2,72.10,6.37,7.67,7.27,8.40,7.64,8.01,8.37,6.76,6.56,7.76);
+
+insert into pci_data (data_year, province, ranking, pci, entry_costs, land_access, transparency, time_costs, 
+informal_charges, bias, proactivity, bss, labor_training, law_order) 
+Values(2019,20,2,72.10,6.37,7.67,7.27,8.40,7.64,8.01,8.37,6.76,6.56,7.76);
